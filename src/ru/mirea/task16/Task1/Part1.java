@@ -1,4 +1,4 @@
-package ru.mirea.task17.Task1;
+package ru.mirea.task16.Task1;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

@@ -1,4 +1,4 @@
-package ru.mirea.task17.Task2;
+package ru.mirea.task16.Task2;
 
 import java.awt.Font;
 import java.awt.event.ActionListener;

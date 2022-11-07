@@ -1,4 +1,4 @@
-package ru.mirea.task17.Task1;
+package ru.mirea.task16.Task1;
 
 import java.awt.*;
 import java.awt.event.MouseEvent;
