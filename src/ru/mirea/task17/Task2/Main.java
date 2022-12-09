@@ -17,15 +17,15 @@ public class Main {
         controller.setEmployeeDaysWorked(scanner.nextInt());
         System.out.print("Дневная зарплата: ");
         controller.setEmployeePayForDay(scanner.nextInt());
-        System.out.println("After updating, Employee Details are as follows");
+        System.out.println("Обновление данных...");
         controller.updateView();
     }
     private static Employee
     retriveEmployeeFromDatabase(){
         Employee employee = new Employee();
-        employee.setName("Георгий");
-        employee.setDaysWorked(14);
-        employee.setPayForDay(3000);
+        employee.setName("Игорь");
+        employee.setDaysWorked(369);
+        employee.setPayForDay(1337);
         return employee;
     }
 
