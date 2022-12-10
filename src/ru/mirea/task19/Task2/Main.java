@@ -15,13 +15,13 @@ public class Main {
             choice = scanner.nextInt();
             switch (choice){
                 case 1 -> {
-                    System.out.println("Введи имя и средний балл >> ");
+                    System.out.print("Введи имя и средний балл >> ");
                     String name = scanner.next();
                     byte score = scanner.nextByte();
                     students.add(new Student(name, score));
                 }
                 case 2 -> {
-                    System.out.println("Введи имя для поиска >> ");
+                    System.out.print("Введи имя для поиска >> ");
                     String searchName = scanner.next();
                     boolean flag = false;
                     for (var s : students){
